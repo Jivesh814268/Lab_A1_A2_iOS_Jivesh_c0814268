@@ -9,7 +9,7 @@
     </entity>
     <entity name="Providers" representedClassName="Providers" syncable="YES" codeGenerationType="class">
         <attribute name="provider_name" optional="YES" attributeType="String"/>
-        <relationship name="product" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Products" inverseName="provider" inverseEntity="Products"/>
+        <relationship name="product" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Products" inverseName="provider" inverseEntity="Products"/>
     </entity>
     <elements>
         <element name="Products" positionX="-63" positionY="-18" width="128" height="104"/>

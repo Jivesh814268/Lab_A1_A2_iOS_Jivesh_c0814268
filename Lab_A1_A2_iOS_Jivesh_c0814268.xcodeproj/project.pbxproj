@@ -15,6 +15,7 @@
 		FC64C8A826F7DC28008E4500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC64C8A726F7DC28008E4500 /* Assets.xcassets */; };
 		FC64C8AB26F7DC28008E4500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC64C8A926F7DC28008E4500 /* LaunchScreen.storyboard */; };
 		FC64C8B326F7DF86008E4500 /* One.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC64C8B226F7DF86008E4500 /* One.swift */; };
+		FCAF0DB826F934DE0038A1F0 /* ProviderProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF0DB726F934DE0038A1F0 /* ProviderProductViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FC64C8AA26F7DC28008E4500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC64C8AC26F7DC28008E4500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC64C8B226F7DF86008E4500 /* One.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One.swift; sourceTree = "<group>"; };
+		FCAF0DB726F934DE0038A1F0 /* ProviderProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderProductViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				FC64C89D26F7DC28008E4500 /* SceneDelegate.swift */,
 				FC64C89F26F7DC28008E4500 /* ViewController.swift */,
 				FC64C8B226F7DF86008E4500 /* One.swift */,
+				FCAF0DB726F934DE0038A1F0 /* ProviderProductViewController.swift */,
 				FC64C8A126F7DC28008E4500 /* Main.storyboard */,
 				FC64C8A726F7DC28008E4500 /* Assets.xcassets */,
 				FC64C8A926F7DC28008E4500 /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 				FC64C89C26F7DC28008E4500 /* AppDelegate.swift in Sources */,
 				FC64C8B326F7DF86008E4500 /* One.swift in Sources */,
 				FC64C89E26F7DC28008E4500 /* SceneDelegate.swift in Sources */,
+				FCAF0DB826F934DE0038A1F0 /* ProviderProductViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

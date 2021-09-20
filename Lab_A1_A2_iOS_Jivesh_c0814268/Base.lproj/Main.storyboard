@@ -34,7 +34,7 @@
                                         <rect key="frame" x="208" y="0.0" width="206" height="50"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="17"/>
-                                        <state key="normal">
+                                        <state key="normal" title="Providers">
                                             <color key="titleColor" systemColor="systemGray6Color"/>
                                         </state>
                                         <connections>
@@ -103,7 +103,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="9BW-8g-y4D">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="lVV-8P-WTe">
-                            <color key="tintColor" systemColor="systemYellowColor"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="addButton:" destination="1Dd-Bt-nhq" id="WMQ-56-6de"/>
                             </connections>
@@ -202,7 +202,7 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4l-uV-gkX">
                                 <rect key="frame" x="0.0" y="652" width="414" height="40"/>
-                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="O5V-4U-EhH"/>
                                 </constraints>
@@ -285,9 +285,6 @@
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
